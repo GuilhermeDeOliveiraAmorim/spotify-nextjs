@@ -12,7 +12,7 @@ function Ranking(props: IRanking) {
 			className="flex-1 flex-col justify-between w-full bg-background-highlight rounded-xl p-1"
 		>
 			<Head period={period} title={head.title} urlImg={head.urlImg} />
-			<hr className="text-text-subdued text-sm m-2" />
+			<hr className="text-text-subdued text-sm mt-2 mb-2" />
 			<List period={period} />
 			<div id={`show-more-${period}`} className="mt-2">
 				<Link href={period}>
