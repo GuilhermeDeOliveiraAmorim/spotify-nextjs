@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <div className="flex flex-col h-screen bg-spotify-green overflow-auto">
       <Header />
-      <main className="flex flex-row gap-2 p-2">
+      <main className="flex flex-col sm:flex-row lg:flex-row gap-2 p-2">
         <Ranking
           period="day"
           head={{

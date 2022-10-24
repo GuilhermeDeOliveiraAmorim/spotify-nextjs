@@ -70,7 +70,7 @@ function Table() {
             <th className="text-left p-2">Artist</th>
             <th className="text-left p-2">Album</th>
             <th className="text-left p-2">Time</th>
-            <th className="text-left p-2">Ver</th>
+            <th className="text-left p-2">Ouvir</th>
           </tr>
         </thead>
         <tbody className="bg-text-subdued">
