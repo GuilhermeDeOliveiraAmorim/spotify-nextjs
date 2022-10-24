@@ -1,3 +1,3 @@
 export interface IList {
-  period: string;
+    period: string;
 }
