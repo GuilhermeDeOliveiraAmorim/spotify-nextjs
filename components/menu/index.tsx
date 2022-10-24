@@ -9,7 +9,7 @@ function Menu(props: IMenu) {
     return (
         <div className="flex gap-2">
             {menuItens.map(item =>
-                <Link href={`/${item.path}`}>
+                <Link href={`/${item.path}`} key={item.name}>
                     <button className="text-text-base bg-background-tinted-highlight p-2 rounded-lg hover:bg-text-subdued">
                         {item.name}
                     </button>

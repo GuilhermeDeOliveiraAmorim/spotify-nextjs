@@ -1,3 +1,5 @@
+import { MdAudiotrack } from "react-icons/md";
+
 function Table() {
   const tracks = [
     {
@@ -74,7 +76,7 @@ function Table() {
         <tbody className="bg-text-subdued">
           {tracks.map((track) => (
             <tr
-              className="bg-background-elevated-highlight hover:bg-text-subdued"
+              className="bg-background-highlight hover:bg-background-tinted-base hover:text-background-base"
               key={track.id}
             >
               <td className="p-2">{track.ranking}</td>
@@ -94,7 +96,7 @@ function Table() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  ir
+                  <MdAudiotrack />
                 </a>
               </td>
             </tr>

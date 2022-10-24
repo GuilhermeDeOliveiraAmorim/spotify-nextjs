@@ -1,5 +1,5 @@
 interface IItemMenu {
-    path: string;
+    path: string | Element;
     name: string;
 }
 
