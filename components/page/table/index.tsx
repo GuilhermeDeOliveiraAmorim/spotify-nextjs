@@ -94,7 +94,7 @@ function Table() {
 								<a
 									href={track.spotifyUrl}
 									target="_blank"
-									rel="noopener noreferrer"
+									rel="noreferrer"
 								>
 									<MdAudiotrack />
 								</a>

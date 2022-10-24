@@ -17,6 +17,7 @@ function Item(props: IItem) {
       <a
         href={spotifyUrl}
         target="_blank"
+        rel="noreferrer"
         className="text-text-base text-right"
       >
         <MdAudiotrack />
