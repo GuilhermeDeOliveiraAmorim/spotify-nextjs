@@ -1,6 +1,6 @@
-import { IHead } from "./head/IHead";
+import IHead from "./head/IHead";
 
-export interface IRanking {
+export default interface IRanking {
     period: string;
     head: IHead;
 }

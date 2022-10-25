@@ -1,1 +1,1 @@
-export interface IMonth {}
+export default interface IMonth {}

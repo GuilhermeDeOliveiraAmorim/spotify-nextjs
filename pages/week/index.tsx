@@ -3,7 +3,7 @@ import React from "react";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import Page from "../components/page";
-import { IWeek } from "./IWeek";
+import IWeek from "./IWeek";
 
 const Week: NextPage = (props: IWeek) => {
     const { } = props;

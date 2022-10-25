@@ -1,4 +1,4 @@
-export interface IItem {
+export default interface IItem {
     ranking: number;
     itemImgUrl: string;
     title: string;

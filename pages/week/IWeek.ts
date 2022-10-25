@@ -1,1 +1,1 @@
-export interface IWeek {}
+export default interface IWeek {}

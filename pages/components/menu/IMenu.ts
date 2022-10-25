@@ -3,6 +3,6 @@ interface IItemMenu {
     name: string;
 }
 
-export interface IMenu {
+export default interface IMenu {
     menuItens: IItemMenu[];
 }

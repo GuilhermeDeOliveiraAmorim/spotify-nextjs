@@ -1,1 +1,1 @@
-export interface IDay {}
+export default interface IDay {}

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Head from "./head";
-import { IRanking } from "./IRanking";
+import IRanking from "./IRanking";
 import List from "./list";
 
 export default function Ranking(props: IRanking) {

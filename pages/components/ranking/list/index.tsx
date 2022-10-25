@@ -1,4 +1,4 @@
-import { IList } from "./IList";
+import IList from "./IList";
 import Item from "./item";
 
 export default function List(props: IList) {
