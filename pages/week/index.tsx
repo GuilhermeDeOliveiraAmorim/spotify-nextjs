@@ -1,8 +1,8 @@
 import { NextPage } from "next";
 import React from "react";
-import Footer from "../components/footer";
-import Header from "../components/header";
-import Page from "../components/page";
+import Footer from "../../components/footer";
+import Header from "../../components/header";
+import Page from "../../components/page";
 import IWeek from "../../interfaces/IWeek";
 
 const Week: NextPage = (props: IWeek) => {

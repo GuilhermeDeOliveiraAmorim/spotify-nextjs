@@ -1,5 +1,5 @@
 import React from "react";
-import IHead from "../../../../interfaces/IHead";
+import IHead from "../../../interfaces/IHead";
 
 export default function Head(props: IHead) {
 

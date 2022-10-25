@@ -1,5 +1,5 @@
 import Menu from "../menu";
-import IPage from "../../../interfaces/IPage";
+import IPage from "../../interfaces/IPage";
 import Table from "./table";
 
 export default function Page(props: IPage) {
