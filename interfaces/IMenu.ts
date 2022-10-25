@@ -1,8 +1,9 @@
-interface IItemMenu {
-    path: string | Element;
-    name: string;
-}
+// export default interface IItemMenu {
+//     path: string;
+//     name: string;
+// }
+// [];
 
 export default interface IMenu {
-    menuItens: IItemMenu[];
+    menuItens: any[];
 }
