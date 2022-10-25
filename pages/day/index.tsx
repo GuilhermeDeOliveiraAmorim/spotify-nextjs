@@ -1,8 +1,8 @@
 import { NextPage } from "next";
 import React from "react";
-import { Footer } from "../../components/footer";
-import { Header } from "../../components/header";
-import { Page } from "../../components/page";
+import { Footer } from "../components/footer";
+import { Header } from "../components/header";
+import { Page } from "../components/page";
 import { IDay } from "./IDay";
 
 const Day: NextPage = (props: IDay) => {
