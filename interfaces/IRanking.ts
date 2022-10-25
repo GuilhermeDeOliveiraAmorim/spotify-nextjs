@@ -1,4 +1,4 @@
-import IHead from "./head/IHead";
+import IHead from "./IHead";
 
 export default interface IRanking {
     period: string;

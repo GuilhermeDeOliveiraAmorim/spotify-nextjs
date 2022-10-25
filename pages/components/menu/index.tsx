@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import IMenu from "./IMenu";
+import IMenu from "../../../interfaces/IMenu";
 
 export default function Menu(props: IMenu) {
 

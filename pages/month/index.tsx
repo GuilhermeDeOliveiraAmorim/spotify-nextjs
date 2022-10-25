@@ -3,7 +3,7 @@ import React from "react";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import Page from "../components/page";
-import IMonth from "./IMonth";
+import IMonth from "../../interfaces/IMonth";
 
 const Month: NextPage = (props: IMonth) => {
     const { } = props;

@@ -3,7 +3,7 @@ import React from "react";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import Page from "../components/page";
-import IDay from "./IDay";
+import IDay from "../../interfaces/IDay";
 
 const Day: NextPage = (props: IDay) => {
     const { } = props;

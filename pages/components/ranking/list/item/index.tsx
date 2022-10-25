@@ -1,5 +1,5 @@
 import { MdAudiotrack } from "react-icons/md";
-import { IItem } from "./IItem";
+import IItem from "../../../../../interfaces/IItem";
 
 export default function Item(props: IItem) {
 	const { artist, title, album, itemImgUrl, ranking, time, spotifyUrl } = props;
