@@ -1,7 +1,7 @@
 import { IList } from "./IList";
-import { Item } from "./item";
+import Item from "./item";
 
-function List(props: IList) {
+export default function List(props: IList) {
 	const { period } = props;
 
 	const tracks = [
@@ -81,5 +81,3 @@ function List(props: IList) {
 		</div>
 	);
 }
-
-export { List };

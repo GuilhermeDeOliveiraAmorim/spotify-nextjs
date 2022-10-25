@@ -1,7 +1,7 @@
 import React from "react";
 import { IHead } from "./IHead";
 
-function Head(props: IHead) {
+export default function Head(props: IHead) {
 
     const { period, title, urlImg } = props;
 
@@ -53,5 +53,3 @@ function Head(props: IHead) {
         </div>
     )
 }
-
-export { Head };

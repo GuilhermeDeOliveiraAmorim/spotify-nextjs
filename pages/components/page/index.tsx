@@ -1,8 +1,8 @@
-import { Menu } from "../menu";
+import Menu from "../menu";
 import { IPage } from "./IPage";
-import { Table } from "./table";
+import Table from "./table";
 
-function Page(props: IPage) {
+export default function Page(props: IPage) {
 	const { pageTitle } = props;
 
 	const menuItens = [
@@ -24,5 +24,3 @@ function Page(props: IPage) {
 		</div>
 	);
 }
-
-export { Page };

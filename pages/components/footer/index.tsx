@@ -1,6 +1,6 @@
 import { FaWhatsapp, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
-function Footer() {
+export default function Footer() {
 	return (
 		<footer className="flex justify-between items-center bg-background-base p-4">
 			<a
@@ -36,5 +36,3 @@ function Footer() {
 		</footer>
 	);
 }
-
-export { Footer };

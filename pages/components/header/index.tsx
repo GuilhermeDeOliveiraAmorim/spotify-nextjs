@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header() {
+export default function Header() {
 	return (
 		<header className="flex justify-between items-center bg-background-base p-2 text-text-base">
 			<h1>My Song Ranking</h1>
@@ -14,5 +14,3 @@ function Header() {
 		</header>
 	);
 }
-
-export { Header };

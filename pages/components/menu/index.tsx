@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { IMenu } from "./IMenu";
 
-function Menu(props: IMenu) {
+export default function Menu(props: IMenu) {
 
     const { menuItens } = props;
 
@@ -18,5 +18,3 @@ function Menu(props: IMenu) {
         </div>
     )
 }
-
-export { Menu };

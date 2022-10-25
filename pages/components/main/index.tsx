@@ -1,6 +1,6 @@
-import { Ranking } from "../ranking";
+import Ranking from "../ranking";
 
-function Main() {
+export default function Main() {
 	return (
 		<main className="flex flex-row gap-2 p-2">
 			<Ranking
@@ -33,5 +33,3 @@ function Main() {
 		</main>
 	);
 }
-
-export { Main };

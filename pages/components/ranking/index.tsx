@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { Head } from "./head";
+import Head from "./head";
 import { IRanking } from "./IRanking";
-import { List } from "./list";
+import List from "./list";
 
-function Ranking(props: IRanking) {
+export default function Ranking(props: IRanking) {
 	const { head, period } = props;
 
 	return (
@@ -24,5 +24,3 @@ function Ranking(props: IRanking) {
 		</div>
 	);
 }
-
-export { Ranking };

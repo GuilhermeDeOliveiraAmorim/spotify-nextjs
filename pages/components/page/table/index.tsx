@@ -1,6 +1,6 @@
 import { MdAudiotrack } from "react-icons/md";
 
-function Table() {
+export default function Table() {
 	const tracks = [
 		{
 			id: 1,
@@ -106,5 +106,3 @@ function Table() {
 		</div>
 	);
 }
-
-export { Table };
