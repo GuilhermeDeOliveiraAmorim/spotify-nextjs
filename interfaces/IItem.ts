@@ -1,9 +1,13 @@
+import IAlbum from "./IAlbum";
+import IArtist from "./IArtist";
+
 export default interface IItem {
-    ranking: number;
-    itemImgUrl: string;
-    title: string;
-    artist: string;
-    album: string;
-    time: string;
-    spotifyUrl: string;
+    album: IAlbum;
+    albumName: string;
+    albumImg: string;
+    artists: IArtist[];
+    duration_ms: number;
+    external_urls: string;
+    id: string;
+    name: string;
 }
